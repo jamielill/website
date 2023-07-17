@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    color: #00FF00;
+    background-color: #161925;
+}
+
+ul.navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #00cc00;
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: left;
+}
+        
+ul.navbar li {
+    float: left;
+}
+        
+ul.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+        
+ul.navbar li a:hover {
+    color: #00FF00;
+}
+
+.tag-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ECECEC;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+    
+.tag-button:hover {
+    background-color: #CCCCCC;
+}
