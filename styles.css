@@ -2,8 +2,8 @@
 body {
     font-family: "Courier New", Courier, monospace;
     font-size: 17px;
-    color: #00FF00;
-    background-color: #161925;
+    color: #6fb32c;
+    background-color: #17172c;
 }
 
 ul.navbar {
@@ -11,8 +11,8 @@ ul.navbar {
     padding: 0;
     list-style: none;
     font-size: 25px;
-    color: #161925;
-    background-color: #00FF00;
+    color: #17172c;
+    background-color: #6fb32c;
     display: flex;
     align-items: left;
 }
