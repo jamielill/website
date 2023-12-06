@@ -1,8 +1,7 @@
-
-@font-face{
-    font-family: "Myriad-Pro";  
-    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
-}
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url(MyriadPro-Regular.ttf ) format("truetype");
+} 
 
 body {
     font-size: 17px;
