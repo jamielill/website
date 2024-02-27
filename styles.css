@@ -12,14 +12,12 @@ body {
 
 
 .navbar {
-  height: 80px;
+  height: 30px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #6fb32c;
   color: #17172c;
-  padding: 10px 20px;
+  //padding: 10px 20px;
 }
 
 .brand {
