@@ -5,19 +5,27 @@
 
 body {
     font-family: font;
-    font-size: 17px;
+    font-size: 20px;
     color: #6fb32c;
     background-color: #17172c;
+    padding: 0px 0px;
 }
 
+h1 {
+    text-align: center;
+}
+
+.text {
+    padding: 0px 400px;
+}
 
 .navbar {
-  height: 30px;
-  width: 100%;
+  height: 40px;
+  width: 1580px;
   display: flex;
   background-color: #6fb32c;
   color: #17172c;
-  //padding: 10px 20px;
+  padding: 0px 150px; 
 }
 
 .brand {
@@ -27,12 +35,12 @@ body {
 .nav-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px 70px;
   display: flex;
 }
 
 .nav-links li {
-  margin-right: 20px;
+  margin: 5px 50px;
 }
 
 .nav-links li:last-child {
