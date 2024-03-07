@@ -27,8 +27,16 @@ h1 {
     text-align: center;
 }
 
-main {
-    padding: 0px 400px;
+#about {
+    padding: 0% 30%;
+}
+
+#portfolio {
+    padding: 0% 30%;
+}
+
+#contact {
+    padding: 0% 30%;
 }
 
 .box {
@@ -40,11 +48,11 @@ main {
     text-align: center;
 }
 
-.cover {
+/* .cover {
     width: 900px;
     height: 400px;
     margin-top: 50px;
-}
+} */
 
 .navbar {
   height: 40px;
