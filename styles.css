@@ -3,25 +3,52 @@
     src:url(ticketing.ttf);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: font;
     font-size: 20px;
     color: #6fb32c;
     background-color: #17172c;
     padding: 0px 0px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
 
 h1 {
     text-align: center;
 }
 
-.text {
+main {
     padding: 0px 400px;
+}
+
+.box {
+    margin: 10px;
+    width: 400px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cover {
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
 }
 
 .navbar {
   height: 40px;
-  width: 1580px;
+  width: 100%;
   display: flex;
   background-color: #6fb32c;
   color: #17172c;
