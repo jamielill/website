@@ -1,9 +1,9 @@
 @font-face {
-    font-family: font;  
-    src:url(ticketing.ttf);
+    font-family: font;
+    src: url(ticketing.ttf);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ body {
     padding: 0px 0px;
     margin: auto;
     align-items: center;
-    
+
 }
 
 img {
@@ -32,7 +32,7 @@ h1 {
 }
 
 #portfolio {
-    padding: 0% 30%;
+    padding: 50px;
 }
 
 #contact {
@@ -42,60 +42,64 @@ h1 {
 .box {
     margin: 10px;
     width: 400px;
-    height: 800px;
+    height: 600px;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 /* .cover {
-    width: 900px;
-    height: 400px;
-    margin-top: 50px;
 } */
 
 .navbar {
-  height: 40px;
-  width: 100%;
-  display: flex;
-  background-color: #6fb32c;
-  color: #17172c;
-  padding: 0px 150px; 
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #6fb32c;
+    color: #17172c;
+    padding: 0px 150px;
 }
 
 .brand {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px 70px;
-  display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 70px;
+    display: flex;
 }
 
 .nav-links li {
-  margin: 5px 50px;
+    margin: 5px 50px;
 }
 
 .nav-links li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .nav-links li a {
-  text-decoration: none;
-  color: #17172c;
-  font-size: 1.2em;
+    text-decoration: none;
+    color: #17172c;
+    font-size: 1.2em;
 }
 
 .nav-links li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 div.projectImg {
     overflow: hidden;
     position: relative;
-    width: 300px; 
+    width: 300px;
     height: 300px;
 }
 
@@ -108,7 +112,7 @@ p.zoomImg {
     transition: transform 0.3s ease;
 }
 
-.projectImg:hover .zoomImg{
+.projectImg:hover .zoomImg {
     transform: scale(1.2);
 }
 
@@ -122,7 +126,13 @@ p.zoomImg {
     cursor: pointer;
     margin-right: 8px;
 }
-    
+
 .tag-button:hover {
     background-color: #CCCCCC;
+}
+
+@media (max-width: 800px) {
+    .projects {
+        flex-direction: column;
+    }
 }
