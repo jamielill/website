@@ -39,6 +39,34 @@ h1 {
     padding: 0% 30%;
 }
 
+.tag {
+    color: #17172c;
+    font-weight: bold;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+#gamejam {
+    background-color: rgb(255, 0, 0);
+}
+
+#unity {
+    background-color: rgb(0, 110, 255);
+}
+
+#unreal {
+    background-color: rgb(43, 255, 0);
+}
+
+#blender {
+    background-color: #EA7600;
+}
+
 .box {
     margin: 10px;
     width: 400px;
