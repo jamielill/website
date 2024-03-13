@@ -27,6 +27,15 @@ h1 {
     text-align: center;
 }
 
+#jobTitle {
+    text-align: center;
+}
+
+#trailer {
+    width: 1920px;
+    height: 1080px;
+}
+
 #about {
     padding: 0% 30%;
 }
@@ -40,7 +49,7 @@ h1 {
 }
 
 .tag {
-    color: #17172c;
+    color: #f2fff3;
     font-weight: bold;
     width: 70px;
     height: 20px;
