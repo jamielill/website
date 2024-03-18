@@ -15,7 +15,6 @@ body {
     padding: 0px 0px;
     margin: auto;
     align-items: center;
-
 }
 
 img {
@@ -68,12 +67,6 @@ h1 {
     display: flex;
 }
 
-#project img {
-    padding: 20px;
-    height: 50%;
-    width: 50%;
-}
-
 .tag {
     color: #f2fff3;
     font-weight: bold;
@@ -116,13 +109,6 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
 }
 
 .navbar {
