@@ -18,8 +18,8 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
 video {
@@ -71,6 +71,13 @@ h1 {
 }
 
 /* sections */
+.sectionTitle {
+    width: 100%;
+    height: 50px;
+    background-color: #70b32c;
+    color:#17172c;
+}
+
 #trailer {
     width: 1920px;
     height: 1080px;
@@ -90,18 +97,23 @@ h1 {
 
 #portfolio {
     padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.sectionTitle {
-    width: 100%;
-    height: 50px;
-    background-color: #70b32c;
-    color:#17172c;
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 
 /* projects display */
 .box {
-    margin: 10px;
+
+    margin: 100px;
     width: 400px;
     height: 600px;
     align-items: center;
