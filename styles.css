@@ -112,13 +112,12 @@ h1 {
 
 /* projects display */
 .box {
-
-    margin: 100px;
-    width: 400px;
+    width: 600px;
     height: 600px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 50px;
 }
 
 /* project tags */
