@@ -31,86 +31,7 @@ h1 {
     text-align: center;
 }
 
-#jobTitle {
-    text-align: center;
-}
-
-#trailer {
-    width: 1920px;
-    height: 1080px;
-}
-
-#about {
-    padding: 0% 30%;
-}
-
-#portfolio {
-    padding: 50px;
-}
-
-#contact {
-    padding: 0% 30%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-#contact img {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-
-#copyright {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.tag {
-    color: #f2fff3;
-    font-weight: bold;
-    width: 70px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 5px;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-}
-
-.sectionTitle {
-    width: 100%;
-    height: 50px;
-    background-color: #70b32c;
-    color:#17172c;
-}
-
-#gamejam {
-    background-color: rgb(255, 0, 0);
-}
-
-#unity {
-    background-color: rgb(0, 110, 255);
-}
-
-#unreal {
-    background-color: rgb(43, 255, 0);
-}
-
-#blender {
-    background-color: #EA7600;
-}
-
-.box {
-    margin: 10px;
-    width: 400px;
-    height: 600px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
+/* nav bar */
 .navbar {
     height: 40px;
     width: 100%;
@@ -149,41 +70,95 @@ h1 {
     text-decoration: underline;
 }
 
-div.projectImg {
-    overflow: hidden;
-    position: relative;
-    width: 300px;
-    height: 300px;
+/* sections */
+#trailer {
+    width: 1920px;
+    height: 1080px;
 }
 
-p.zoomImg {
-    position: absolute;
-    top: 0;
-    left: 0;
+#jobTitle {
+    text-align: center;
+}
+
+#about {
+    padding: 0% 30%;
+}
+
+#highlight {
+    padding: 50px;
+}
+
+#portfolio {
+    padding: 50px;
+}
+
+.sectionTitle {
     width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease;
+    height: 50px;
+    background-color: #70b32c;
+    color:#17172c;
 }
 
-.projectImg:hover .zoomImg {
-    transform: scale(1.2);
+/* projects display */
+.box {
+    margin: 10px;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.tag-button {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #ECECEC;
-    border: none;
-    border-radius: 4px;
-    font-size: 17px;
-    cursor: pointer;
-    margin-right: 8px;
+/* project tags */
+.tag {
+    color: #f2fff3;
+    font-weight: bold;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }
 
-.tag-button:hover {
-    background-color: #CCCCCC;
+#gamejam {
+    background-color: rgb(255, 0, 0);
 }
 
+#unity {
+    background-color: rgb(0, 110, 255);
+}
+
+#unreal {
+    background-color: rgb(43, 255, 0);
+}
+
+#blender {
+    background-color: #EA7600;
+}
+
+/* footer */
+#contact {
+    padding: 0% 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contact img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+#copyright {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* phone version */
 @media (max-width: 800px) {
     .projects {
         flex-direction: column;
