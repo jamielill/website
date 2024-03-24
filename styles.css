@@ -42,7 +42,6 @@ h1 {
 
 .brand {
     font-size: 1.5em;
-    padding-left: 50px;
 }
 
 .nav-links {
@@ -91,10 +90,6 @@ h1 {
     padding: 0% 30%;
 }
 
-#highlight {
-    padding: 50px;
-}
-
 #portfolio {
     padding: 50px;
     align-items: center;
@@ -108,7 +103,6 @@ h1 {
     justify-content: center;
     text-align: center;
 }
-
 
 /* projects display */
 .box {
