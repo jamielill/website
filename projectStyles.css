@@ -62,7 +62,7 @@ h1 {
 /* sections */
 .sectionTitle {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #70b32c;
     color:#17172c;
 }
@@ -100,6 +100,13 @@ h1 {
     padding: 50px;
 }
 
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #70b32c;
+    color:#17172c;
+}
+
 /* footer */
 #contact {
     padding: 0% 30%;
@@ -109,8 +116,8 @@ h1 {
 }
 
 #contact img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     padding: 20px;
 }
 

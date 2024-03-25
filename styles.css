@@ -72,7 +72,7 @@ h1 {
 /* sections */
 .sectionTitle {
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #70b32c;
     color:#17172c;
 }
@@ -102,6 +102,13 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #70b32c;
+    color:#17172c;
 }
 
 /* projects display */
@@ -152,8 +159,8 @@ h1 {
 }
 
 #contact img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     padding: 20px;
 }
 
