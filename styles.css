@@ -18,8 +18,8 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 video {
@@ -87,7 +87,8 @@ h1 {
 }
 
 #about {
-    padding: 0% 30%;
+    padding-inline: 10vw;
+    text-align: center;
 }
 
 #portfolio {
@@ -113,8 +114,8 @@ footer {
 
 /* projects display */
 .box {
-    width: 400px;
-    height: 600px;
+    max-width: 400px;
+    max-height: 600px;
     align-items: center;
     justify-content: center;
     text-align: center;
