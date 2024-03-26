@@ -19,11 +19,12 @@ body {
 
 h1 {
     text-align: center;
+    padding: 20px;
 }
 
 /* nav bar */
 .navbar {
-    height: 40px;
+    height: 70px;
     width: 100%;
     display: flex;
     background-color: #70b32c;
@@ -31,7 +32,8 @@ h1 {
 }
 
 .brand {
-    font-size: 1.5em;
+    font-size: 2em;
+    padding: 10px;
 }
 
 .nav-links {
@@ -43,6 +45,7 @@ h1 {
 
 .nav-links li {
     margin: 5px 50px;
+    padding: 10px;
 }
 
 .nav-links li:last-child {
