@@ -89,17 +89,19 @@ h1 {
 }
 
 #portfolio {
+    display: flex;
+    flex-direction: column;
     padding: 50px;
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .projects {
     display: flex;
-    align-items: flex;
     justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -170,8 +172,10 @@ footer {
 }
 
 /* phone version */
-@media (max-width: 800px) {
-    .projects {
+@media (max-width: 767px) {
+    #portfolio {
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
