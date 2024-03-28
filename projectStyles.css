@@ -120,4 +120,14 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0;
+}
+
+/* phone version */
+@media (max-width: 767px) {
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
