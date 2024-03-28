@@ -69,8 +69,10 @@ h1 {
 
 /* sections */
 .sectionTitle {
-    width: 100%;
+    width: 80%;
     height: 70px;
+    margin-inline: 12vw;
+    align-self: center;
     background-color: #70b32c;
     color:#17172c;
 }
@@ -84,7 +86,7 @@ h1 {
 }
 
 #about {
-    padding-inline: 10vw;
+    padding-inline: 12vw;
     text-align: center;
 }
 
