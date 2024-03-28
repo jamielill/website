@@ -26,6 +26,7 @@ img {
 h1 {
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 /* nav bar */
@@ -83,21 +84,22 @@ h1 {
 
 #jobTitle {
     text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 #about {
     padding-inline: 12vw;
     text-align: center;
+    margin: 0;
 }
 
 #portfolio {
     display: flex;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .projects {
