@@ -69,10 +69,9 @@ h1 {
 
 /* sections */
 .sectionTitle {
-    width: 80%;
+    width: 75%;
     height: 70px;
-    margin-inline: 12vw;
-    align-self: center;
+    margin-inline: 12.5vw;
     background-color: #70b32c;
     color:#17172c;
 }
