@@ -55,7 +55,7 @@ h1 {
 .nav-links li a {
     text-decoration: none;
     color: #17172c;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .nav-links li a:hover {
@@ -93,6 +93,14 @@ h1 {
 
 #project {
     padding: 50px;
+}
+
+.info {
+    padding: 100px;
+}
+
+img {
+    padding: 10px;
 }
 
 footer {
