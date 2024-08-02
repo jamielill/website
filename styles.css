@@ -75,6 +75,9 @@ h1 {
     height: 70px;
     margin-inline: 12.5vw;
     background-color: #70b32c;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     color:#17172c;
 }
 
