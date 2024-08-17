@@ -33,6 +33,11 @@ h1 {
 .navbar {
     height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
     display: flex;
     background-color: #70b32c;
     color: #17172c;
@@ -81,7 +86,9 @@ h1 {
 }
 
 #trailer {
-    max-width: 100%; 
+    width: 100%; 
+    position: relative;
+    top: 70px;
 }
 
 #jobTitle {
