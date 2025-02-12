@@ -50,12 +50,18 @@ h1 {
 
 .nav-links {
     list-style-type: none;
-    padding: 10px 70px;
+    margin: 0;
+    padding: 0px 70px;
     display: flex;
 }
 
 .nav-links li {
-    padding-inline: 10%;
+    margin: 5px 50px;
+    padding: 10px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
 }
 
 .nav-links li a {
