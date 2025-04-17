@@ -2,6 +2,12 @@ img {
     padding: 10px;
 }
 
+iframe {
+    padding-top: 40px;
+    height: 480px;
+    width: 853px;
+}
+
 #project {
     padding: 50px;
 }
