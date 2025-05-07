@@ -16,6 +16,10 @@ iframe {
     padding: 100px;
 }
 
+h2, h3, p {
+    margin: 0px;
+}
+
 /* comparison slider */
 .container {
     display: grid;

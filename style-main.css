@@ -24,6 +24,20 @@ h1 {
     margin: 0;
 }
 
+a:link {
+    color: #46701c;
+
+  }
+  a:visited {
+    color: #630c6b;
+  }
+  a:hover {
+    color: #70b32c;
+  }
+  a:active {
+    color: #70b32c;
+  }
+
 /* nav bar */
 .navbar {
     height: 70px;
