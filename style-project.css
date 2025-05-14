@@ -31,8 +31,9 @@ h2, h3, p {
   }
   
   .image-container {
-    max-width: 800px;
-    max-height: 800px;
+    position: relative;
+    max-width: 720px;
+    max-height: 720px;
   }
   
   .slider-image {
@@ -40,6 +41,7 @@ h2, h3, p {
     height: 100%;
     object-fit: cover;
     object-position: left;
+    
   }
   
   .image-before {
