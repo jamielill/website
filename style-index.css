@@ -47,7 +47,8 @@ img {
 .projects {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    max-width: 100%;
 }
 
 /* projects display */
