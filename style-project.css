@@ -21,7 +21,7 @@ h2, h3, p {
 }
 
 /* comparison slider */
-.container {
+.comparison-box {
     max-width: 720px;
     max-height: 720px;
     position: relative;
@@ -40,7 +40,6 @@ h2, h3, p {
     height: 100%;
     object-fit: cover;
     object-position: left;
-    
   }
   
   .image-before {
@@ -66,7 +65,7 @@ h2, h3, p {
   .slider-line {
     position: absolute;
     inset: 0;
-    width: 10px;
+    width: 5px;
     height: 100%;
     background-color: #70b32c;
     /* z-index: 10; */
