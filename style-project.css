@@ -68,9 +68,8 @@ h2, h3, p {
     width: 5px;
     height: 100%;
     background-color: #70b32c;
-    /* z-index: 10; */
     left: var(--position);
-    transform: translateX(-50%);
+    transform: translate(100%);
     pointer-events: none;
   }
   
@@ -84,8 +83,7 @@ h2, h3, p {
     place-items: center;
     top: 50%;
     left: var(--position);
-    transform: translate(-50%, -50%);
+    transform: translate(-38.5%, -50%);
     pointer-events: none;
-    /* z-index: 100; */
     box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
   }
