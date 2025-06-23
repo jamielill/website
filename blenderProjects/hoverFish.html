@@ -19,14 +19,94 @@
             </nav>
         </header>
         <main id="project">
-            <img src="../images/BlenderProjects/HoverFish/hoverFishV1.0.webp" height="720px">
-            <img src="../images/BlenderProjects/HoverFish/hoverFishV1.0WireFrame.webp" height="720px">
-            <img src="../images/BlenderProjects/HoverFish/HoverFishReference.webp" height="720px">
+            <div class="comparison-box">
+                <div class="image-container">
+                    <img
+                        class="image-before slider-image"
+                        src="../images/BlenderProjects/HoverFish/hoverFishV1.0Viewport.webp"
+                        alt="Viewport"
+                    />
+                    <img
+                        class="image-after slider-image"
+                        src="../images/BlenderProjects/HoverFish/hoverFishV1.0.webp"
+                    />
+                </div>
+                <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    aria-label="Percentage of viewport vs rendered image shown"
+                    class="slider"
+                />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 256 256">
+                        /* middle bar */
+                        <line
+                        x1="128"
+                        y1="40"
+                        x2="128"
+                        y2="216"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        /* left arrow */
+                        <line
+                        x1="56"
+                        y1="128"
+                        x2="106"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="48 160 16 128 48 96"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                        /* right arrow */
+                        <line
+                        x1="150"
+                        y1="128"
+                        x2="200"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="208 96 240 128 208 160"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                    </svg>
+                </div>
+                <p>Use the slider to compare the viewport and rendered image!</p>
+            </div>
+            <script src="../comparisonSlider.js"></script>
             <div class="info">
-                <h2>Hover Fish - Rendered in Cycles</h2>
-                <p>This model was created in May 2022. I attempted to recreate the Hover Fish from the game Subnautica as pictured above.
-                   I used an image texture for this model but in the future I may use a procedural texture to get a more realistic look 
-                </p>
+                <h2>Hover Fish | Project Type: Model | Type: Character</h2>
+                <h3>Info</h3>
+                    This model was created in May 2022. I attempted to recreate the Hover Fish from the game Subnautica as pictured below.
+                    <br>>>> V1.0 Basic details created for the model
+                <h3>What I learned</h3>
+                    >>> How to create a painted texture within Blender
+                <h3>Specs:</h3>
+                    >>> Software: Blender
+                    <br>>>> Final Render: Cycles
+                    <br>>>> Tris: 50k  
+                <h3>Potential improvements:</h3>
+                    >>> Create procedural textures for a more realistic look
+                    <br>>>> Reduce tri count
+            </div>
+            <div>
+                <h3>Process images</h3>
+                <img src="../images/BlenderProjects/HoverFish/HoverFishReference.webp" height="480px">Reference</img>
             </div>
         </main>
         <footer>
