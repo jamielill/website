@@ -19,18 +19,96 @@
             </nav>
         </header>
         <main id="project">
-            <img src="../images/BlenderProjects/GoblinHours/goblinV1.1.webp" height="720px">
-            <img src="../images/BlenderProjects/GoblinHours/goblinV1.1WireFrame.webp" height="720px">
-            <img src="../images/BlenderProjects/GoblinHours/goblinReference.gif" height="720px">
+            <div class="comparison-box">
+                <div class="image-container">
+                    <img
+                        class="image-before slider-image"
+                        src="../images/BlenderProjects/GoblinHours/goblinV1.0Viewport.webp"
+                        alt="Viewport"
+                    />
+                    <img
+                        class="image-after slider-image"
+                        src="../images/BlenderProjects/GoblinHours/goblinV1.0.webp"
+                    />
+                </div>
+                <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    aria-label="Percentage of viewport vs rendered image shown"
+                    class="slider"
+                />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 256 256">
+                        /* middle bar */
+                        <line
+                        x1="128"
+                        y1="40"
+                        x2="128"
+                        y2="216"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        /* left arrow */
+                        <line
+                        x1="56"
+                        y1="128"
+                        x2="106"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="48 160 16 128 48 96"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                        /* right arrow */
+                        <line
+                        x1="150"
+                        y1="128"
+                        x2="200"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="208 96 240 128 208 160"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                    </svg>
+                </div>
+                <p>Use the slider to compare the viewport and rendered image!</p>
+            </div>
+            <script src="../comparisonSlider.js"></script>
             <div class="info">
-                <h2>Goblin Hours - Rendered in Eevee</h2>
-                <p>WIP. This model is a recreation of a gif called goblin hours as seen above and was started in February 2024.
-                </p>
+                <h2>Goblin Hours | Project Type: Model | Type: Character</h2>
+                <h3>Info</h3>
+                    This model is a recreation of a gif called goblin hours as seen above and was started in February 2024.
+                    <br>>>> V1.0 Created initial model and textures
+                <h3>What I learned</h3>
+                    >>> working with subdivision surface modifier
+                <h3>Specs:</h3>
+                    >>> Software: Blender
+                    <br>>>> Final Render: Cycles
+                    <br>>>> Tris: 264k 
+                <h3>Potential improvements:</h3>
+                    >>> Rig and animate the goblin to match the original gif
+                    <br>>>> Optimise tri count
             </div>
             <div>
                 <h3>Process images</h3>
-                <img src="../images/BlenderProjects/GoblinHours/goblinV1.0.webp" height="480px">
+                <img src="../images/BlenderProjects/GoblinHours/goblinV1.0.webp" height="480px">V1.0</img>
                 <img src="../images/BlenderProjects/GoblinHours/goblin2.webp" height="480px">
+                <img src="../images/BlenderProjects/GoblinHours/goblinReference.gif" height="720px">Original GIF</img>
             </div>
         </main>
         <footer>
