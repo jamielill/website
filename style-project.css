@@ -18,7 +18,7 @@ iframe {
 }
 
 .info {
-    max-width: 700px;
+    max-width: 900px;
 }
 
 h2, h3, p {
@@ -30,7 +30,6 @@ h2, h3, p {
     max-width: 720px;
     max-height: 720px;
     position: relative;
-
     --position: 50%;
 }
   
