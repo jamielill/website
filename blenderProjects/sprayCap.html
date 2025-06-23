@@ -19,29 +19,100 @@
             </nav>
         </header>
         <main id="project">
-            <img src="../images/BlenderProjects/SprayCap/sprayCapV1.1.webp" height="480px">
-            <img src="../images/BlenderProjects/SprayCap/sprayCapV1.1WireFrame.webp" height="480px">
-            <img src="../images/BlenderProjects/SprayCap/sprayCapReference.webp" height="480px">
+            <div class="comparison-box">
+                <div class="image-container">
+                    <img
+                        class="image-before slider-image"
+                    src="../images/BlenderProjects/SprayCap/sprayCapV1.2Viewport.webp"
+                        alt="Viewport"
+                    />
+                    <img
+                        class="image-after slider-image"
+                        src="../images/BlenderProjects/SprayCap/sprayCapV1.2.webp"
+                        alt="Rendered"
+                    />
+                </div>
+                <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    aria-label="Percentage of viewport vs rendered image shown"
+                    class="slider"
+                />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 256 256">
+                        /* middle bar */
+                        <line
+                        x1="128"
+                        y1="40"
+                        x2="128"
+                        y2="216"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        /* left arrow */
+                        <line
+                        x1="56"
+                        y1="128"
+                        x2="106"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="48 160 16 128 48 96"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                        /* right arrow */
+                        <line
+                        x1="150"
+                        y1="128"
+                        x2="200"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="208 96 240 128 208 160"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                    </svg>
+                </div>
+                <p>Use the slider to compare the viewport and rendered image!</p>
+            </div>
+            <script src="../comparisonSlider.js"></script>
             <div class="info">
-                <h2>Spray Cap</h2>
-                <p>
+                <h2>Spray Cap | Project Type: Model | Type: Prop</h2>
+                <h3>Info</h3>
                     I have been interested in graffiti for a long time so I decided to model a spray paint nozzle/cap
                     <br>>>> V1.0 in June 2022, the curves were created by using a 'difference' boolean modifier with a cyclinder as the mask mesh.
                     <br>>>> V1.1 in August 2024, the cap material was made more shiny and a background was added.
-                    <br><br>
-                    <b>Specs:</b>
-                    <br>>>> Software: Blender
+                    <br>>>> V1.2 The spray can was added and UV unwrapped to apply the wrapper texture.
+                <h3>What I learned</h3>
+                    >>> using UV unwrapping to apply a physical image texture to a model
+                <h3>Specs:</h3>
+                    >>> Software: Blender
                     <br>>>> Final Render: Cycles
                     <br>>>> Tris: 1.75k 
-                    <br><br>
-                    <b>Potential improvements:</b>
-                    <br>>>> Better matching of material colours
+                <h3>Potential improvements:</h3>
+                    >>> Better matching of material colours
                     <br>>>> Optimise tri count
                 </p>
             </div>
             <div>
                 <h3>Process images</h3>
+                <img src="../images/BlenderProjects/SprayCap/sprayCapReference.webp" height="480px">Reference image</img>
                 <img src="../images/BlenderProjects/SprayCap/sprayCapV1.0.webp" height="480px">V1.0</img>
+                <img src="../images/BlenderProjects/SprayCap/sprayCapV1.1.webp" height="480px">V1.1</img>
             </div>
         </main>
         <footer>
