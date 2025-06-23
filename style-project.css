@@ -30,65 +30,68 @@ h2, h3, p {
     max-width: 720px;
     max-height: 720px;
     position: relative;
-    overflow: hidden;
+
     --position: 50%;
-  }
+}
   
-  .image-container {
+.image-container {
     position: relative;
     max-width: 720px;
     max-height: 720px;
-  }
-  
-  .slider-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: left;
-  }
-  
-  .image-before {
-    position: absolute;
-    inset: 0;
-    width: var(--position);
-  }
-  
-  .slider {
-    position: absolute;
-    inset: 0;
-    cursor: grab;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .slider:focus-visible ~ .slider-button {
-    outline: 5px solid #17172c;
-    outline-offset: 3px;
-  }
-  
-  .slider-line {
-    position: absolute;
-    inset: 0;
-    width: 5px;
-    height: 100%;
-    background-color: #70b32c;
-    left: var(--position);
-    transform: translate(100%);
-    pointer-events: none;
-  }
-  
-  .slider-button {
-    position: absolute;
-    background-color: #70b32c;
-    color: #17172c;
-    padding: .5rem;
-    border-radius: 100vw;
-    display: grid;
-    place-items: center;
-    top: 50%;
-    left: var(--position);
-    transform: translate(-38.5%, -50%);
-    pointer-events: none;
-    box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
-  }
+}
+.image-container img {
+  padding: 0px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.image-before {
+  position: absolute;
+  inset: 0;
+  width: var(--position);
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider:focus-visible ~ .slider-button {
+  outline: 5px solid #17172c;
+  outline-offset: 3px;
+}
+
+.slider-line {
+  position: absolute;
+  inset: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #70b32c;
+  left: var(--position);
+  transform: translate(0%);
+  pointer-events: none;
+}
+
+.slider-button {
+  position: absolute;
+  background-color: #70b32c;
+  color: #17172c;
+  padding: .5rem;
+  border-radius: 100vw;
+  display: grid;
+  place-items: center;
+  top: 50%;
+  left: var(--position);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
