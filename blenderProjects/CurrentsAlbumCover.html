@@ -19,8 +19,77 @@
             </nav>
         </header>
         <main id="project">
-            <img src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.2.webp" height="480px">
-            <img src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.2Viewport.webp" height="480px">
+            <div class="comparison-box">
+                <div class="image-container">
+                    <img
+                        class="image-before slider-image"
+                    src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.2Viewport.webp"
+                        alt="Viewport"
+                    />
+                    <img
+                        class="image-after slider-image"
+                        src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.2.webp"
+                        alt="Rendered"
+                    />
+                </div>
+                <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    aria-label="Percentage of viewport vs rendered image shown"
+                    class="slider"
+                />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 256 256">
+                        /* middle bar */
+                        <line
+                        x1="128"
+                        y1="40"
+                        x2="128"
+                        y2="216"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        /* left arrow */
+                        <line
+                        x1="56"
+                        y1="128"
+                        x2="106"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="48 160 16 128 48 96"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                        /* right arrow */
+                        <line
+                        x1="150"
+                        y1="128"
+                        x2="200"
+                        y2="128"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></line>
+                        <polyline
+                        points="208 96 240 128 208 160"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="16"
+                        ></polyline>
+                    </svg>
+                </div>
+                <p>Use the slider to compare the viewport and rendered image!</p>
+            </div>
+            <script src="../comparisonSlider.js"></script>
             <div class="info">
                 <h2>Currents | Project Type: Model | Type: Album Cover</h2>
                 <h3>Info</h3>
@@ -39,7 +108,7 @@
             </div>
             <div>
                 <h3>Reference & Process images</h3>
-                <img src="../images/BlenderProjects/CurrentsAlbumCover/cover.webp" height="480px">Album Cover</img>
+                <img src="../images/BlenderProjects/CurrentsAlbumCover/cover.webp" height="480px">Original Album Cover</img>
                 <img src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.0.webp" height="480px">V1.0</img>
                 <img src="../images/BlenderProjects/CurrentsAlbumCover/currentsV1.1.webp" height="480px">V1.1</img>
             </div>
