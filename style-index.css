@@ -5,17 +5,26 @@ img {
 
 /* sections */
 .sectionTitle {
-    width: 75%;
+    width: 100vw;
     align-items: center;
     justify-content: center;
-    display: contents;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0; 
     color:#17172c;
 }
 
-#sectionTitle {
+.sectionTitle img {
     max-width: 100%;
-    height: 72px;
-    object-fit: none;
+    max-height: none;
+    width: 100%;
+    height: auto;
+}
+
+#sectionTitle {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 #trailer {
