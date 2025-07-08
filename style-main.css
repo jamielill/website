@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: font;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #70b32c;
     background-color: #17172c;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 1.042vw 1.852vh;
     margin: 0;
 }
 
@@ -40,8 +40,8 @@ a:link {
 
 /* nav bar */
 .navbar {
-    font-size: 20px;
-    height: 70px;
+    font-size: 1.25rem;
+    height: 6.481vh;
     width: 100%;
     position: fixed;
     top: 0;
@@ -62,12 +62,12 @@ a:link {
 .nav-links {
     list-style-type: none;
     margin: 0;
-    padding: 0px 70px;
+    padding: 0;
     display: flex;
 }
 
 .nav-links li {
-    margin: 5px 50px;
+    margin: 0.26vw 4.63vh;
     padding: 1vw;
     white-space: nowrap;
 }
@@ -86,10 +86,10 @@ a:link {
 .tag {
     color: #f2fff3;
     font-weight: bold;
-    width: 70px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 3.646vw;
+    height: 1.852vh;
+    padding: 0.26vw 0.463vh;
+    border-radius: 0.26vw 0.463vh;
     align-items: left;
     justify-content: left;
     text-align: left;
@@ -127,8 +127,8 @@ footer {
 }
 
 #contact img {
-    width: 60px;
-    height: 60px;
+    width: 6vw;
+    height: 6vw;
     padding: 20px;
 }
 
