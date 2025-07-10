@@ -41,7 +41,7 @@ a:link {
 /* nav bar */
 .navbar {
     font-size: 1.25rem;
-    height: 6.481vh;
+    padding: 5px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -80,6 +80,30 @@ a:link {
 
 .nav-links li a:hover {
     text-decoration: underline;
+}
+
+#menu-toggle {
+  display: none;
+}
+#menu-toggle:checked ~ .nav-links {
+    display: flex;
+}
+
+.hamburger {
+  padding-left: 50vw;
+  padding-right: 10vw;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-links
+  {
+    display: none;
+  }
 }
 
 /* project tags */
