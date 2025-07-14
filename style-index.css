@@ -6,25 +6,20 @@ img {
 /* sections */
 .sectionTitle {
     width: 100vw;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    box-sizing: border-box;
-    margin: 0; 
-    color:#17172c;
+    height: 5vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .sectionTitle img {
-    max-width: 100%;
-    max-height: none;
-    width: 100%;
-    height: auto;
-}
-
-#sectionTitle {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #trailer {
@@ -81,7 +76,7 @@ img {
     }
 
     .box {
-        margin-inline: 20vw;
-        max-width: 80vw;
+        
+        max-width: 90vw;
     }
 }
