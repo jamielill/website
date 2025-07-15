@@ -114,9 +114,9 @@ a:link {
     height: 1.852vh;
     padding: 0.26vw 0.463vh;
     border-radius: 0.26vw 0.463vh;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #gamejam {
