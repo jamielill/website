@@ -40,7 +40,6 @@ a:active {
 /* nav bar */
 .navbar {
     font-size: 1.25rem;
-    padding-bottom: 1vw;
     width: 100%;
     position: fixed;
     top: 0;
