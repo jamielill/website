@@ -1,6 +1,11 @@
 img {
     height: 480px;
     padding: 10px;
+    display: flex;
+}
+
+#processImages {
+    display: flex;
 }
 
 figure {
