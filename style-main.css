@@ -87,6 +87,8 @@ a:active {
     font-size: 2rem;
     cursor: pointer;
     display: none;
+    background: none;
+    border: none;
 }
 @media (max-width: 768px) {
     .hamburger {
