@@ -45,6 +45,14 @@ h2, h3, p {
     position: relative;
     --position: 50%;
 }
+
+/* comparison slider */
+.comparison-box-large {
+    max-width: 1920px;
+    max-height: 1080px;
+    position: relative;
+    --position: 50%;
+}
   
 .image-container {
     position: relative;

@@ -118,13 +118,11 @@ a:active {
 .tag {
     color: #f2fff3;
     font-weight: bold;
-    width: 3.646vw;
-    height: 1.852vh;
-    padding: 0.26vw 0.463vh;
-    border-radius: 0.26vw 0.463vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    font-size: 1rem;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    line-height: 1;
+    border-radius: 999em;
 }
 
 #gamejam {
@@ -141,6 +139,25 @@ a:active {
 
 #blender {
     background-color: #EA7600;
+}
+
+#modeling {
+    background-color: #EA7600;
+}
+
+#texturing {
+    background-color: #0037ea;
+}
+
+#rigging {
+    background-color: #ea0033;
+}
+
+#cs {
+    background-color: #9179E4;
+}
+#arduino {
+    background-color: #70b32c;
 }
 
 /* footer */
