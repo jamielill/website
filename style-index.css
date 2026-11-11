@@ -75,6 +75,11 @@
 .box img {
     max-width: 20.833vw;
     max-height: 20.833vw;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.box img:hover {
+    transform: scale(0.95);
+    filter: drop-shadow(0 0 20px #70b32c);
 }
 
 .modelPics {
@@ -85,24 +90,22 @@
     position: relative;
     top: 0;
     left: 0;
-    transition: opacity 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 .modelPics img.render {
-    opacity: 1;
+    opacity: 1;  
+}
+.modelPics:hover img.render {
+    opacity: 0;
 }
 .modelPics img.wireframe {
     position: absolute;
     opacity: 0;
-}
-.modelPics:hover img.render {
-    opacity: 0;
-    transform: scale(0.95);
-    filter: drop-shadow(0 0 20px #70b32c);
+    transform: (0.95);
 }
 .modelPics:hover img.wireframe {
     opacity: 1;
-    transform: scale(0.95);
-    filter: drop-shadow(0 0 20px #70b32c);
+    transform: (0.95);
 }
 
 @media (max-width: 768px) {
